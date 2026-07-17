@@ -1,0 +1,40 @@
+// Tarjetas de Servicios
+.card {
+    background-color: $color-fondo-tarjeta !important;
+    border: 1px solid rgba($color-texto-muted, 0.1) !important;
+    transition: $transicion-suave;
+
+    &:hover {
+        transform: translateY(-5px); // Sutil elevación
+        border-color: rgba($color-acento-cian, 0.4) !important;
+        box-shadow: 0 10px 20px rgba(0, 242, 254, 0.05);
+    }
+}
+
+// Botón personalizado
+.btn-info {
+    background-color: $color-acento-cian !important;
+    border: none !important;
+    transition: $transicion-suave !important;
+
+    &:hover {
+        transform: scale(1.03); // Zoom suave
+        box-shadow: 0 0 15px rgba($color-acento-cian, 0.4);
+    }
+}
+
+// Efecto avanzado para la Galería de Instalaciones (Requisito de animación/transformación)
+.galeria-item {
+    cursor: pointer;
+    border: 1px solid rgba($color-texto-muted, 0.1) !important;
+
+    img {
+        transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.08); // Zoom elegante al pasar el cursor
+        }
+    }
+}

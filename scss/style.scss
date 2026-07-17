@@ -1,0 +1,12 @@
+// 1. Herramientas y Variables (Primero siempre)
+@import 'utilities/variables';
+@import 'utilities/mixins';
+
+// 2. Estilos Globales
+@import 'base/base';
+
+// 3. Estructuras de Layout
+@import 'layout/navbar';
+
+// 4. Componentes y animaciones
+@import 'components/components';

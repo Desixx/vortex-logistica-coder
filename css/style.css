@@ -1,0 +1,68 @@
+body {
+  background-color: #0a0e17;
+  color: #f0f6fc;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f0f6fc;
+}
+
+p {
+  color: #8b949e;
+}
+
+.navbar {
+  background-color: #121824 !important;
+  border-bottom: 2px solid rgba(0, 242, 254, 0.1);
+  padding: 1rem 0;
+}
+.navbar .navbar-brand {
+  text-shadow: 0 0 8px rgba(0, 242, 254, 0.4);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.navbar .navbar-brand:hover {
+  color: #f0f6fc !important;
+}
+.navbar .nav-link {
+  color: #8b949e !important;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.navbar .nav-link:hover, .navbar .nav-link.active {
+  color: #00f2fe !important;
+  text-shadow: 0 0 5px rgba(0, 242, 254, 0.3);
+}
+
+.card {
+  background-color: #121824 !important;
+  border: 1px solid rgba(139, 148, 158, 0.1) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(0, 242, 254, 0.4) !important;
+  box-shadow: 0 10px 20px rgba(0, 242, 254, 0.05);
+}
+
+.btn-info {
+  background-color: #00f2fe !important;
+  border: none !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+.btn-info:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(0, 242, 254, 0.4);
+}
+
+.galeria-item {
+  cursor: pointer;
+  border: 1px solid rgba(139, 148, 158, 0.1) !important;
+}
+.galeria-item img {
+  transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.galeria-item:hover img {
+  transform: scale(1.08);
+}/*# sourceMappingURL=style.css.map */

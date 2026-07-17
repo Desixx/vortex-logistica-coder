@@ -1,0 +1,16 @@
+// Estilos generales del sitio
+body {
+    background-color: $color-fondo-oscuro;
+    color: $color-texto-claro;
+    font-family: $fuente-principal;
+    overflow-x: hidden;
+}
+
+// Estilos de textos generales
+h1, h2, h3, h4, h5, h6 {
+    color: $color-texto-claro;
+}
+
+p {
+    color: $color-texto-muted;
+}

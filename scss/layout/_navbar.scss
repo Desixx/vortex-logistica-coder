@@ -1,0 +1,25 @@
+.navbar {
+    background-color: $color-fondo-tarjeta !important;
+    border-bottom: 2px solid rgba($color-acento-cian, 0.1);
+    padding: 1rem 0;
+
+    .navbar-brand {
+        text-shadow: 0 0 8px rgba($color-acento-cian, 0.4);
+        transition: $transicion-suave;
+
+        &:hover {
+            color: $color-texto-claro !important;
+        }
+    }
+
+    .nav-link {
+        color: $color-texto-muted !important;
+        font-weight: 500;
+        transition: $transicion-suave;
+
+        &:hover, &.active {
+            color: $color-acento-cian !important;
+            text-shadow: 0 0 5px rgba($color-acento-cian, 0.3);
+        }
+    }
+}

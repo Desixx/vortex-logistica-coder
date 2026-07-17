@@ -1,0 +1,19 @@
+// Mixin para Media Queries (Responsive)
+@mixin responder-a($pantalla) {
+    @if $pantalla == mobile {
+        @media (max-width: 576px) { @content; }
+    }
+    @if $pantalla == tablet {
+        @media (max-width: 768px) { @content; }
+    }
+    @if $pantalla == desktop {
+        @media (min-width: 992px) { @content; }
+    }
+}
+
+// Mixin para Flexbox centrado
+@mixin flex-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -17,3 +17,12 @@
     justify-content: center;
     align-items: center;
 }
+
+// Mixin para efecto hover con sombra
+@mixin efecto-hover {
+    transition: $transicion-suave;
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 15px rgba(0, 242, 254, 0.4);
+    }
+}
